@@ -36,14 +36,13 @@ const Dropdown: React.FC<Props> = ({ btnIcon, items, className }) => {
         >
           {items.map((item) => {
             return (
-              <div
-                key={item.itemName}
-                className={`p-6 border-b border-[#E6E6E6] cursor-pointer`}
-              >
-                <MenuItem>
-                  <Link href={item.href}>{item.itemName}</Link>
-                </MenuItem>
-              </div>
+              <Link href={item.href} key={item.itemName}>
+                <div className={`p-6 border-b border-[#E6E6E6] cursor-pointer`}>
+                  <MenuItem>
+                    <p>{item.itemName}</p>
+                  </MenuItem>
+                </div>
+              </Link>
             );
           })}
         </MenuItems>
