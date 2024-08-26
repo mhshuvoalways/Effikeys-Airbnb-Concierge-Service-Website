@@ -1,5 +1,5 @@
 import HomeIcon from "@/public/icons/home.svg";
-import CareMaintainImage from "@/public/images/knowmoreus/careMaintain.png";
+import CareMaintainImage from "@/public/images/knowMoreUs/careMaintain.png";
 import Image from "next/image";
 
 interface Props {}
