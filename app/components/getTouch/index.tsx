@@ -27,14 +27,14 @@ const index: React.FC<Props> = () => {
           <div className="py-3 px-6 border-[0.5px] border-opacity-40 border-primary flex items-center gap-x-[22px]">
             <Image src={PhoneIcon} alt="" />
             <div>
-              <p className="text-[#6B6B6B]">Phone number</p>
+              <p className="text-gray">Phone number</p>
               <p className="font-semibold text-lg xl:text-xl">07.67.73.28.71</p>
             </div>
           </div>
           <div className="py-3 px-6 border-[0.5px] border-primary flex items-center gap-x-[22px] rounded">
             <Image src={EmailIcon} alt="" />
             <div>
-              <p className="text-[#6B6B6B]">Email address</p>
+              <p className="text-gray">Email address</p>
               <p className="font-semibold text-lg xl:text-xl">
                 contact@simplyhome.fr
               </p>
@@ -43,7 +43,7 @@ const index: React.FC<Props> = () => {
           <div className="py-7 px-6 border-[0.5px] border-primary flex items-center gap-x-[22px] rounded">
             <Image src={LocationIcon} alt="" />
             <div>
-              <p className="text-[#6B6B6B]">Address</p>
+              <p className="text-gray">Address</p>
               <p className="font-semibold text-lg xl:text-xl">
                 336 Jiehn Route, West Nws, Tennessee, 11239
               </p>

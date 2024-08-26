@@ -1,6 +1,6 @@
 import TitleDes from "@/app/components/common/titleDes";
 import HomeImage from "@/public/images/home.png";
-import TreeImage from "@/public/images/knowmoreus/tree.png";
+import TreeImage from "@/public/images/knowMoreUs/tree.png";
 import Image from "next/image";
 
 interface Props {}

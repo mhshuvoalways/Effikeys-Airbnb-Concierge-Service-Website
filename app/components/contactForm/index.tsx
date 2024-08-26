@@ -5,7 +5,7 @@ const index: React.FC<Props> = () => {
     <div className="h-auto lg:h-[774px] mt-[100px] mb-40">
       <div className="myContainer h-auto lg:h-[612px] bg-[#FAF4E7] rounded-[10px] text-center py-[76px]  relative">
         <p className="font-semibold text-3xl">Have a Question ?</p>
-        <p className="text-sm text-[#6B6B6B] mt-6">
+        <p className="text-sm text-gray mt-6">
           Fill out our contact form, and we will get back to you as soon as
           possible
         </p>

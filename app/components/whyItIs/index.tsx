@@ -1,7 +1,7 @@
 import TitleDes from "@/app/components/common/titleDes";
-import FirstImage from "@/public/images/whyitis/first.png";
-import SecondImage from "@/public/images/whyitis/second.png";
-import ThirdImage from "@/public/images/whyitis/third.png";
+import FirstImage from "@/public/images/whyItIs/first.png";
+import SecondImage from "@/public/images/whyItIs/second.png";
+import ThirdImage from "@/public/images/whyItIs/third.png";
 import Image from "next/image";
 
 interface Props {}
