@@ -25,6 +25,25 @@ const menus = [
   },
 ];
 
+const mobileMenus = [
+  {
+    itemName: "HOME",
+    href: "/",
+  },
+  {
+    itemName: "ABOUT US",
+    href: "/about-us",
+  },
+  {
+    itemName: "CONCIERGE",
+    href: "/services/soncierge",
+  },
+  {
+    itemName: "SUBLETTING",
+    href: "/services/subletting",
+  },
+];
+
 const services = [
   {
     itemName: "Concierge",
@@ -45,7 +64,7 @@ const MainHeader: React.FC<Props> = () => {
     <div className="myContainer flex items-center justify-between gap-1">
       <div className="block sm:hidden pt-5 sm:pt-0">
         <Dropdown
-          items={menus}
+          items={mobileMenus}
           btnIcon={
             <Image src={BarIcon} alt="" className="bg-gray-100 rounded" />
           }
