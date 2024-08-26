@@ -6,7 +6,7 @@ import MangementServices from "@/app/components/mangementServices";
 import NeedService from "@/app/components/needService";
 import OurOffer from "@/app/components/ourOffer";
 import TravelAndOffer from "@/app/components/travelAndOffer";
-import BgImage from "@/public/images/hero/soncierge.png";
+import BgImage from "@/public/images/hero/concierge.png";
 
 interface Props {}
 

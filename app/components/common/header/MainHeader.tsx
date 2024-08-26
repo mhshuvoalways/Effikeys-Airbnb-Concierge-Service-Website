@@ -36,7 +36,7 @@ const mobileMenus = [
   },
   {
     itemName: "CONCIERGE",
-    href: "/services/soncierge",
+    href: "/services/concierge",
   },
   {
     itemName: "SUBLETTING",
@@ -47,7 +47,7 @@ const mobileMenus = [
 const services = [
   {
     itemName: "Concierge",
-    href: "/services/soncierge",
+    href: "/services/concierge",
   },
   {
     itemName: "Subletting",

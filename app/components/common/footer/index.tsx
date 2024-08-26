@@ -23,7 +23,7 @@ const menus = [
   },
   {
     itemName: "Services",
-    href: "/services/soncierge",
+    href: "/services/concierge",
   },
 ];
 
